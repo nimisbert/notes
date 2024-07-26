@@ -1,3 +1,3 @@
 - [[Algèbre]]
-- [[Polynômes]]
-- [[Cinématique]]
+- [[Mécanique]]
+- [[Polynôme]]
