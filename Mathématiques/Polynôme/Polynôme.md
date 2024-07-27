@@ -1,3 +1,2 @@
 [[Quadratique]]
 [[Cubique]]
-

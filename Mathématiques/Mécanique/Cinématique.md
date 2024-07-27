@@ -3,8 +3,12 @@ L'étude du mouvement des objets.
 ---
 ## 1. Les variables de la cinématique
 ### 1.1. La position
-La position d'un objet est une distance par rapport à un point de référence $[m]$. La position est une grandeur vectorielle. La distance est une grandeur scalaire.
-$$\vec{p}(t) = \begin{pmatrix} x(t) \\ y(t) \\ z(t) \end{pmatrix} ; \lVert \vec{p} \rVert = d = \sqrt{x^2 +y^2+z^2}
+La position d'un objet est une distance par rapport à un point de référence $[m]$. La position est une grandeur vectorielle. La distance $d$ est une grandeur scalaire.
+$$
+\begin{split}
+\vec{p}(t) = \begin{pmatrix} x(t) \\ y(t) \\ z(t) \end{pmatrix} \\
+\lVert \vec{p} \rVert = d = \sqrt{x^2 +y^2+z^2}
+\end{split}
 $$
 ### 1.2. La vitesse
 La vitesse d'un objet est la variation de déplacement en fonction du temps $[m.s^{-1}]$. La vitesse est une grandeur vectorielle.
