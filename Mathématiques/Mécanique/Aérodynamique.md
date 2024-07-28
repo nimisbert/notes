@@ -52,7 +52,7 @@ Tel que :
 - $\rho$ la densité du fluide en $[g.m^{-3}]$
 - $v$ la viscosité cinématique $[m^{2}.s^{-1}]$
 ### 1.8. La vitesse du son
-La vitesse à laquelle une perturbation infinitésimale se propage dans un fluide au repos, noté $a$. Pour un gaz parfait :
+La vitesse à laquelle une perturbation se propage dans un fluide au repos, noté $a$. Pour un gaz parfait :
 $$
 a = \sqrt{\gamma R T}
 $$
@@ -63,8 +63,8 @@ Tel que :
 Pour des plages de température tel que l'air est assimilable à un gaz parfait, $\gamma = 1.4$. L'équation de la vitesse du son en fonction de la température, devient :
 $$
 \begin{split}
-a = 20.047\sqrt{T} \quad ; \quad [S.I.] \\
-a = 49.02\sqrt{T} \quad ; \quad [U.S.]
+a = 20.047\sqrt{T} \quad ; \quad (S.I.) \\
+a = 49.02\sqrt{T} \quad ; \quad (U.S.)
 \end{split}
 $$
 Tel que :
