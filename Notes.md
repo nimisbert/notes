@@ -1,3 +1,10 @@
 - De [[Mathématique]]
-- De [[Programmation]]
-
+	- Algèbre 
+		- Nombres
+		- Récurrence
+	- Polynôme
+		- Quadratique 
+- De [[Physique]]
+	- Mécanique
+		- Aérodynamique
+		- Cinématique

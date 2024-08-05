@@ -1,0 +1,8 @@
+- [[Algèbre]]
+	- Nombres
+	- Récurrence
+	- Somme
+- [[Polynôme]]
+	- Quadratique
+	- Cubique
+	- Généralisation
