@@ -21,11 +21,11 @@ On démontre l'énoncé au premier rang, ici pour $n=1$ soit on vérifie que $P(
 #### 1.3.3. Hérédité
 On suppose désormais que l'énoncé $P(n)\implies P(n+1)$ est vrai pour $n\geq 1$. calculons la somme de tous les entiers de $1$ à $n+1$. On a :
 $$
-\begin{split}
-1+2+...+n+1 = (1+2+...+n) + (n+1) \\
-= \frac{n(n+1)}{2}+(n+1) \\
-= \frac{(n+1)(n+2)}{2}
-\end{split}
+\begin{align*}
+1+2+...+n+1 &= (1+2+...+n) + (n+1) \\
+			&= \frac{n(n+1)}{2}+(n+1) \\
+			&= \frac{(n+1)(n+2)}{2}
+\end{align*}
 $$
 Pour tout entier $n \geq 1$ nous avons montré que l'énoncé $P(n)$ vrai, alors l'énoncé $P(n+1)$ est vrai. Nous avons de plus montré que l'énoncé $P(1)$ est vrai. Le principe de récurrence permet de conclure que l'énoncé $P(n)$ est vrai pour tout $n\geq 1$.
 
