@@ -1,3 +1,0 @@
-- [[Algèbre]]
-- [[Mécanique]]
-- [[Polynôme]]

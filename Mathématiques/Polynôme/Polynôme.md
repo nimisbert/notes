@@ -1,2 +1,0 @@
-[[Quadratique]]
-[[Cubique]]
