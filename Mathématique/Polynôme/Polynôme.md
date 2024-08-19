@@ -1,2 +1,0 @@
-- [[Quadratique]] : les fonctions de la forme $f(x) = ax^2 + bx + c$
-- Cubiques : les fonctions de la forme $f(x) = ax^3+bx^2+cx+d$

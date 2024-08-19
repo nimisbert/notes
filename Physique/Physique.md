@@ -1,4 +1,0 @@
-- [[Mécanique]]
-	- Aérodynamique
-	- Cinématique
-- [[Électronique]]
