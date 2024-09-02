@@ -25,4 +25,4 @@ s &= 3\sum i + 5\sum i - 15 \sum i \\
 $$
 Ce qui transforme $3 \sum$ de $1$ à $1000$ en simple addition, soustraction, multiplication.
 
-[[Problème 002]]
+[[Pb-002 Even Fibonacci Numbers]]

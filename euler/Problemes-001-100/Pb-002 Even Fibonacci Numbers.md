@@ -1,4 +1,4 @@
-[[Problème 001]]
+[[Pb-001 Multiples of 3 or 5]]
 ### Fibonacci
 #fibo
 La suite de Fibonacci est une suite de nombre entiers où un terme est la somme des deux précédents:
@@ -17,4 +17,4 @@ n = 2i \quad ; \quad i\in \mathbb{N}
 $$
 Soit un nombre pairs est un multiple de $2$.
 
-[[Problème 003]]
+[[Pb-003 Largest Prime Factor]]
