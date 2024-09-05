@@ -1,4 +1,5 @@
-[[Pb-005 Smallest Multiple]]
+Précédent : [[Pb-005 Smallest Multiple]]
+Suivant : [[Pb-007 10001st Prime]]
 
 La somme du carré de chaque nombre naturels allant de $1$ à $10$ est:
 $$
@@ -69,4 +70,3 @@ $$
 &= \frac{3n^4 + 2n^3 - 3n^2-2n}{12} \\
 \end{align*}
 $$
-[[Pb-007 10001st Prime]]

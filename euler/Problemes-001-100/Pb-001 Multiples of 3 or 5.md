@@ -1,3 +1,4 @@
+Suivant : [[Pb-002 Even Fibonacci Numbers]]
 ### Identifier les éléments unitaires du problème
 Un nombre $n$ est un multiple de $k$ si il peut se décomposé comme le produit de:
 $$
@@ -24,5 +25,3 @@ s &= 3\sum i + 5\sum i - 15 \sum i \\
 \end{align*}
 $$
 Ce qui transforme $3 \sum$ de $1$ à $1000$ en simple addition, soustraction, multiplication.
-
-[[Pb-002 Even Fibonacci Numbers]]

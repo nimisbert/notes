@@ -1,4 +1,5 @@
-[[Pb-004 Largest Palindrome Product]]
+Précédent : [[Pb-004 Largest Palindrome Product]]
+Suivant : [[Pb-006 Sum Square Difference]]
 
 $2520$ est le plus petit nombre divisible par les nombres allant de $1$ à $10$ sans restes.
 Quel est le plus petit nombre divisible par les nombres allant de $1$ à $20$ sans restes.
@@ -43,4 +44,4 @@ Donc le nombre recherche est:
 $$
 s = 2^4 \times 3^2 \times 5 \times 7 \times 11 \times 13 \times 17 \times 19
 $$
-[[Pb-006 Sum Square Difference]]
+

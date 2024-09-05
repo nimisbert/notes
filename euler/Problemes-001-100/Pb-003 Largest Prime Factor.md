@@ -1,5 +1,5 @@
-[[Pb-002 Even Fibonacci Numbers]]
-
+Précédent : [[Pb-002 Even Fibonacci Numbers]]
+Suivant : [[Pb-004 Largest Palindrome Product]]
 Ecriture d'un entier naturel sous la forme d'un produit de nombres premiers.
 #facteurs-premiers
 $$
@@ -12,4 +12,3 @@ $$
 La décomposition de $1$ est le produit vide.
 La décomposition d'un nombre premiers est lui même.
 
-[[Pb-004 Largest Palindrome Product]]
