@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"24c7e64741403eaf","type":"text","text":"__Pomodoro__\n1. Lister les tâches\n2. Chrono de 25 minutes\n3. Focaliser sur le travail\n4. Pause de 5 minutes\n5. Recommencer 4 fois\n6. Faire une longue pause","x":-125,"y":-200,"width":420,"height":280},
+		{"id":"24c7e64741403eaf","type":"text","text":"__Pomodoro__\n1. Lister les tâches\n2. Chrono de 25 minutes\n3. Focaliser sur le travail\n4. Pause de 5 minutes\n5. Recommencer 4 fois (6 si 3/3/3)\n6. Faire une longue pause","x":-125,"y":-200,"width":420,"height":280},
 		{"id":"db22bf756c759946","type":"text","text":"__3/3/3__\n1. 3h sur un projet important \n2. 3 tâches urgentes\n3. 3 tâches de la vie de tous les jours","x":-125,"y":100,"width":420,"height":180},
 		{"id":"54d4275da246d656","type":"text","text":"__Manger la grenouille__\n\nToujours faire la tâche la plus difficile en premiers - Mark Twain","x":-125,"y":300,"width":420,"height":140}
 	],

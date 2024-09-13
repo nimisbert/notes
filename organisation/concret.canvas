@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"651b1da32c6669da","type":"text","text":"__Projet d'électronique__\n- Lire un sous-chapitre de Horowitz ou Dusausay\n- Faire la preuve des équations ou la simulation du circuit","x":-340,"y":-340,"width":365,"height":190,"color":"6"},
+		{"id":"9bd6e50251b73174","type":"text","text":"__Maintenance__\n- Se faire à manger\n- Faire la vaisselle\n- Nettoyer une pièce","x":40,"y":-340,"width":365,"height":190,"color":"2"},
+		{"id":"0be893979d3e6531","type":"text","text":"__Urgent__","x":40,"y":-140,"width":365,"height":190,"color":"1"},
+		{"id":"77524af012de2943","type":"text","text":"__Organisation__\n- Chapitre d'électronique\n- Pause\n- Chapitre d'électronique\n- Pause\n- Manger\n- Vaisselle\n- Nettoyer une pièce\n- Chapitre de Mathématique\n- Pause\n- Chapitre de Mathématique\n- Pause","x":420,"y":-340,"width":365,"height":390,"color":"4"},
+		{"id":"ccb7e95df2fb2954","type":"text","text":"__Projet de Mathématique__\n- Lire un sous-chapitre de Cahill ou ICGSE\n- Faire les exercices du sous-chapitre","x":-340,"y":-140,"width":365,"height":190,"color":"5"}
+	],
+	"edges":[]
+}
