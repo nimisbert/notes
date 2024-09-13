@@ -101,3 +101,5 @@ $$
 &\frac{d}{dx}(u(v(x))) = \frac{du}{dv}\frac{dv}{dx}
 \end{align*}
 $$
+## A.4. - Équations différentielles
+__Équation différentielle linéaire du premiers ordre__ #A-4-1
