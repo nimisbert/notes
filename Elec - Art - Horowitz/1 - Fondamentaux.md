@@ -1,0 +1,237 @@
+## 1.2. - Tensions, Courants et Résistance
+__La Tension__ ($V$) #tension
+entre deux points, est le coût en énergie (un travail) requis pour faire se déplacer une charge positive d'un potentiel positif vers un potentiel négatif.
+
+__Le Courant__ ($A$) #courant
+est le flux de charges électriques à travers un point. Par convention le flux est considérer du potentiel positif vers le négatif.
+
+__La Puissance__ ($W$) #puissance 
+consommée par un circuit est une unité de travail par unité de temps. 
+$$
+P = VI
+$$
+__La Résistance__ ($R$) #r-iv
+le composant électronique tel que la relation entre le courant et la tension est proportionnel.
+$$
+V = RI
+$$
+#r-série 
+__Les Résistances en séries__, augmente la résistance du circuit dans son ensemble.
+$$
+R = R_1 + R_2
+$$
+#r-parallèle
+__Les Résistances en parallèles__, diminue la résistance du circuit dans son ensemble.
+$$
+R = \frac{R_1R_2}{R_1+R_2}
+$$
+#r-puissance
+__La Puissance dissipé par une résistance__, d'après la loi d'Ohm:
+$$
+\begin{align*}
+P &= IV \\
+P &= I^2R \\
+P &= \frac{V^2}{R}
+\end{align*}
+$$
+#v-div
+__Pont diviseur de tension__, en utilisant la loi des mailles pour déterminer la fonction de transfert du circuit:
+$$
+\begin{align*}
+V_{in} &= IR_1+IR_2 \\
+V_{out} &= IR_2 \\
+H = \frac{V_{out}}{V_{in}} &= \frac{R_2}{R_1+R_2} 
+\end{align*}
+$$
+## 1.4. - Condensateurs
+#c-charge
+__La charge d'un condensateur__, en Coulombs est régit par la relation de proportionnalité entre la capacité et la tension au bornes du composant :
+$$
+Q = CV
+$$
+#c-iv
+__Le courant__, traversant un condensateur est proportionnel à la dérivé de la tension à ces bornes:
+$$
+I = C \frac{dV}{dt}
+$$
+#c-énergie
+__L'énergie__, emmagasiner (en Joules) par un condensateur est au carré de la tension à ces bornes:
+$$
+U_C = \frac{1}{2}C V^2
+$$
+#c-série
+__Les condensateurs en séries__, diminuent la capacité de charge globale de circuit, tel que:
+$$
+C = \frac{C_1C_2}{C_1 + C_2}
+$$
+#c-parallèle
+__Les condensateurs en parallèle___, augmentent la capacité de charge globale du circuit, tel que:
+$$
+C = C_1 + C_2 
+$$
+#rc-parallèle 
+__RC__, le circuit avec une résistance et un condensateur en parallèle:
+$$
+\begin{align*}
+i(t) &= C\frac{dv(t)}{dt}=-\frac{v(t)}{R} \\
+0 &= RC \frac{dv(t)}{dt} + v(t) \\
+v(t) &= Ae^{-t/RC}
+\end{align*}
+$$
+#rc-tf
+__RC__, une résistance en série avec une source de tension $V_f$ et la sortie du circuit entre $R$ et $C$:
+$$
+\begin{align*}
+I &= C\frac{dV_{out}}{dt} = \frac{V_f - V{out}}{R}\\
+V_{out} &= V_{f} + Ae^{-t/RC} \\
+t &= RC \times log_e(\frac{V_f}{V_f-V})
+\end{align*}
+$$
+Lorsque $t \geq 5RC$ , alors $V_{out}$ à atteint $V_f$ à 1% près.
+#rc-diff
+__Dérivateur CR__, une capacité en série avec une résistance, la sortie du circuit est entre $R$ et $C$. Ce type de circuit dérive le signal de tension d'entrée:
+$$
+\begin{align*}
+I = C \frac{d}{dt}(V_{in} - V{out}) &= \frac{V_{out}}{R} \\
+C \frac{dV_{in}}{dt} &\approx \frac{V_{out}}{R} \\
+V_{out}(t) &\approx RC \frac{dV_{in}(t)}{dt}
+\end{align*}
+$$
+Pour $R$ et $C$ très petit dans le but de ne pas chargé le signal d'entré et avoir $\frac{dV_{out}}{dt} << \frac{dV_{in}}{dt}$.
+#rc-integ
+__Intégrateur RC__, une résistance en série avec une capacité, la sortie du circuit est entre $C$ et $R$. Ce type de circuit intègre le signal de tension d'entrée:
+$$
+\begin{align*}
+I = C \frac{dV_{out}}{dt} &= \frac{V_{in} - V_{out}}{R} \\
+C \frac{dV_{out}}{dt} &\approx \frac{V_{in}}{R} \\
+V_{out}(t) &\approx \frac{1}{RC} \int^t V_{in}(t)dt +cste
+\end{align*}
+$$
+Pour $R$ et $C$ très grand dans le but de surchargé le signal d'entré et avoir $V_{out} << V_{in}$.
+## 1.5. - Bobines
+#l-charge
+__La charge__, d'une inductance s'exprime au carré du courant tel que:
+$$
+U_L = \frac{1}{2}LI^2
+$$
+#l-iv
+__L'Inductance__ est un composant régit par la relation $V$/$I$ suivante:
+$$
+V = L \frac{dI}{dt}
+$$
+#transfos
+__Le Transformateur__, est un composant de transformation de tension/courant, conservateur de puissance.
+## 1.6. - Diodes
+#d-def
+__La Diode__, est en composant avec une relation $I-V$ non linéaire. Orienté par ces nœuds, l'anode ($-$) et la cathode ($+$). En montage direct, la diode provoque un appel de courant exponentiel face à des tensions qui augmentent. En montage inverse, la diode bloque le courant face à des tensions de plus en plus négative. Jusqu'à une tension de rupture qui dégrade le composant.
+#half-rectif
+__La demi-rectification__, un circuit avec une diode en montage directe en série avec une charge. Ce type de circuit empêche les tensions négatives d'être perçues au bornes de la charge.
+#full-rectif
+__La rectification__, un circuit avec un pont de diode. Convertis les tensions négatives en positives au bornes de la résistance de charge du circuit.
+
+__Filtrer une alimentation__ #ac-dc
+$AC$, pour obtenir une alim. $DC$, est possible à partir d'un pont de diode et un circuit $RC$. Le filtrage créer une onde résiduelle avec un certain niveau de tension.
+$$
+\begin{align*}
+\Delta V &= \frac{I}{C}\Delta t \\
+\Delta t = \frac{1}{f}(half) \quad &ou \quad \Delta t = \frac{1}{2f}(full) \\
+\Delta V = \frac{I_{load}}{fC} \quad &ou \quad \Delta V = \frac{I_{load}}{2fC}
+\end{align*}
+$$
+__Les multiplicateurs__ #v-mult
+de tension et les générateur de Cockcroft-Walton, est un circuit électrique utilisant des capacités et diodes en charge d'un transformateur.
+
+__Protection contre le claquage inductif__ #ind-kick
+Et effectuer de deux manière, avec une diode en parallèle de l'inductance en amont du switch. Ou avec un $RC$-snubber, une résistance en série avec une capacité en parallèle avec une inductance.
+## 1.7. - Impédance et Réactance
+
+__Impédance__ #Z 
+une grandeur généralisée pour les condensateurs et inductances sous la forme de réactance $X$, tel que le courant et la tension sont déphasés de 90°. 
+$$
+Z = R +jX
+$$
+L'impédance est variable en fonction de la fréquence des signaux traversant le circuit.
+
+__Pulsation__ #w
+
+
+__Réactance d'une Capacité__ #Xc
+$$
+X_C = \frac{1}{\omega C}
+$$
+__Réactance d'une inductance__ #Xl
+$$
+X_L = \omega L
+$$
+__Le courant et la tension complexe__ #complexe
+La tension et le courant peuvent être représenter dans le plan complexe, avec le nombre:
+$$
+\begin{align*}
+&e^{j\phi} = cos(\phi)+jsin(\phi) \quad et \quad j = \sqrt{-1} \\
+&V(t) = \mathbb{Re}(Ve^{j\omega t}) \\
+&\quad example:\\
+&V = 5j \\
+&V(t) = \mathbb{Re}(5je^{\omega t}) \\
+&V(t) = \mathbb{Re}(5jcos(\omega t) + 5j^2sin(\omega t)) \\
+&V(t) = -5sin(\omega t)
+\end{align*}
+$$
+
+__Impédance de capacité__ 
+L'impédance d'une capacité est purement complexe, déphase la tension et le courant de 90° en négatif.
+$$
+Z_C = -j\frac{1}{\omega C} = \frac{1}{j\omega C}
+$$
+__Impédance d'une inductance__
+Idem. que la capacité, purement complexe. Déphase la tension et le courant de 90° en positif.
+$$
+Z_L = j\omega L
+$$
+__Ohm avec des impédances__
+La loi d'Ohm généralisée avec des impédances est:
+$$
+V = IZ
+$$
+__Impédances en séries__
+Des composants en séries:
+$$
+Z = Z_1 + Z_2 + ... + Z_n
+$$
+__Impédances en parallèles__
+Des composants en parallèles:
+$$
+Z = \frac{1}{\frac{1}{Z_1} + \frac{1}{Z_2} + ... + \frac{1}{Z_n}}
+$$
+__Puissance moyenne__
+consommée par un circuit, de manière formelle:
+$$
+\begin{align*}
+P &= \frac{1}{T}\int_0^TV(t)I(t)dt \\
+  &\approx \mathbb{Re}(VI^*) \\
+  &\approx \mathbb{Re}(V^*I)
+\end{align*}
+$$
+Tel que $V$ et $I$ les amplitudes complexes $RMS$ et $*$ désigne le conjugué complexe.
+
+__Pont diviseur__
+La solution du pont diviseur avec des résistances et généralisable pour les impédances.
+$$
+\frac{V_{out}}{V_{in}} = \frac{Z_2}{Z_1+Z_2}
+$$
+__Filtre Passe-haut__
+Une capacité en série avec une résistance.
+$$
+\begin{align*}
+V_{out} &= \frac{R}{R-j\frac{1}{\omega C}} V_{in}\\
+V_{out} &= \sqrt{V_{out}V_{out}^*} = (V_{out}V_{out}^*)^{1/2} \\
+V_{out} &= \frac{R}{[R^2 + (1/\omega^2C^2)]^{1/2}} V_{in} \\
+f_{3dB} &= 1/2\pi RC
+\end{align*}
+$$__Filtre Passe-bas__
+Une résistance en série avec une capacité.
+$$
+\begin{align*}
+V_{out} &= \frac{1}{(1+\omega^2R^2C^2)^{1/2}} V_{in} \\
+f_{3dB} &= 1/2\pi RC 
+\end{align*}
+$$
