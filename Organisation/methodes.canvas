@@ -5,7 +5,7 @@
 		{"id":"a95fa70b8e6a7984","type":"text","text":"__Musique__\n- Sunny Bobby Hebb / Potsu\n- Lecture Dandelot Clef F","x":60,"y":-400,"width":365,"height":160,"color":"3"},
 		{"id":"ddb63f843292fb9f","type":"text","text":"__Sport__\n- Étirements\n- Travailler les poings\n- Gainage de 60s","x":440,"y":-400,"width":365,"height":160,"color":"4"},
 		{"id":"00f603983c483488","type":"text","text":"__Maintenance__\n- Se faire à manger\n- Faire la vaisselle\n- Nettoyer une pièce","x":60,"y":-220,"width":365,"height":160,"color":"5"},
-		{"id":"7d2001e2d6567e16","type":"text","text":"__Planifié__\n- RDT Mardi 24/09 avec Christopher Kapustin","x":440,"y":-220,"width":365,"height":160,"color":"6"}
+		{"id":"7d2001e2d6567e16","type":"text","text":"__Planifié__\n- Akkodis Mercredi 13h15\n- RDT Vendredi 16h","x":440,"y":-220,"width":365,"height":160,"color":"6"}
 	],
 	"edges":[]
 }
